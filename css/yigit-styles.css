@@ -1,0 +1,67 @@
+body{
+	font-family: Futura;
+	background: #ffffff;
+	background-image: url('../images/White Background-01.jpg');
+	background-repeat: repeat;
+
+}
+h1{
+	text-shadow: 2px 2px 5px gray;
+	margin: 1rem;
+}
+p{
+	font-family: Georgia, serif;
+	margin-left: 1rem;
+	margin-top: 0;
+}
+p.userin{
+	font-size:1.5rem;
+}
+/*#top-title {
+	height: 100px;
+}*/
+
+#list-shift{
+	height:200px;
+}
+
+.box {
+	min-height: 300px;
+	border: 5px inset gray;
+	border-radius: 15px;
+	box-shadow: 15px 15px;
+}
+.box-title{
+	font-family: sans-serif;
+	letter-spacing: 2px;
+}
+.add-button{
+	margin-top:0.5rem; 
+	background-color:white;
+	font-family: sans-serif;
+	font-weight: bolder;
+	border-color: black;
+}
+.add-button:hover {
+	background-color:#b3b3ff;
+	text-shadow: 2px 2px 5px gray;
+}
+
+.checkbox-design{
+	background-color: #ffffff;
+	opacity: 50;
+	height: 1.5rem;
+  	width: 1.5rem;
+  	border-color: black;
+  	margin-right: 1rem;
+}
+
+/*#header-nav{
+	background-color: #a6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+#header-name{
+	color: blue;
+	font-size: 22px;*/
