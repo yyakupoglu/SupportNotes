@@ -29,10 +29,10 @@ document.getElementById("to-do-button").addEventListener("click", function(){
 		let todo_p = document.createElement("p");
 		todo_p.id = "to-do-input-" + todo_counter;
 		todo_counter++;
-		todo_p.className="todop float-left userin align-top";
+		todo_p.className="todop float-left userin";
 		todo_card.appendChild(todo_p);
 		let todo_checkbox = document.createElement("input");
-		todo_checkbox.className="checkbox-design text-center float-left"; 
+		todo_checkbox.className="checkbox-design float-left"; 
 		todo_checkbox.type="checkbox";
 		//todo_checkbox.addEventListener("click",checkboxCallback());
 		todo_p.appendChild(todo_checkbox);
@@ -48,10 +48,10 @@ document.getElementById("done-button").addEventListener("click", function(){
 		let done_p = document.createElement("p");
 		done_p.id = "done-input-" + done_counter;
 		done_counter++;
-		done_p.className="donep float-left userin align-top";
+		done_p.className="donep float-left userin ";
 		done_card.appendChild(done_p);
 		let done_checkbox = document.createElement("input");
-		done_checkbox.className="checkbox-design text-center float-left"; 
+		done_checkbox.className="checkbox-design float-left"; 
 		done_checkbox.type="checkbox";
 		done_checkbox.checked=true;
 		//todo_checkbox.addEventListener("click",checkboxCallback());

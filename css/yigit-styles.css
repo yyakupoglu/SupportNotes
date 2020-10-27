@@ -22,11 +22,11 @@ p.userin{
 }*/
 
 #list-shift{
-	height:200px;
+	height:100px;
 }
 
 .box {
-	min-height: 300px;
+	min-height: 400px;
 	border: 5px inset gray;
 	border-radius: 15px;
 	box-shadow: 15px 15px;
