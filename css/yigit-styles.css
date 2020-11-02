@@ -11,22 +11,27 @@ h1{
 }
 p{
 	font-family: Georgia, serif;
-	margin-left: 1rem;
-	margin-top: 0;
 }
-p.userin{
-	font-size:1.5rem;
+/*li {
+	list-style-type: none;
 }
-/*#top-title {
-	height: 100px;
-}*/
-
+*/
 #list-shift{
 	height:100px;
 }
-
+.counters{
+	position:absolute;
+	bottom: 0;
+	text-align: center;
+	border-top: solid black 2px;
+}
+.inp{
+	width:95%;
+	min-width: 120px;
+	max-width: 240px;
+}
 .box {
-	min-height: 400px;
+	min-height: 300px;
 	border: 5px inset gray;
 	border-radius: 15px;
 	box-shadow: 15px 15px;
@@ -34,6 +39,10 @@ p.userin{
 .box-title{
 	font-family: sans-serif;
 	letter-spacing: 2px;
+	white-space:nowrap;
+	margin-right: 0px;
+  	margin-left: 0px;
+	text-align: center;
 }
 .add-button{
 	margin-top:0.5rem; 
@@ -52,16 +61,36 @@ p.userin{
 	opacity: 50;
 	height: 1.5rem;
   	width: 1.5rem;
+  	font-size: 3rem;
   	border-color: black;
-  	margin-right: 1rem;
+  	margin-left: 0.5rem;
+  	float:left;
+  	display:inline-block;
 }
 
-/*#header-nav{
-	background-color: #a6b319;
-	border-radius: 0;
-	border: 0;
+.removebox-design{
+	background-color: #ffffff;
+	opacity: 50;
+	height: 1.5rem;
+  	width: 1.5rem;
+  	font-size: 3rem;
+  	border-color: black;
+  	margin-right: 0.5rem;
+  	float:right;
+  	display:inline-block;
 }
 
-#header-name{
-	color: blue;
-	font-size: 22px;*/
+.userin{
+	overflow:hidden;
+	/*display:inline-block;*/
+	align-items: center;
+	text-align: center;
+	
+}
+
+.input-div{
+	min-width: 260px;
+	max-width:100%;
+	display:inline-block;
+	
+}

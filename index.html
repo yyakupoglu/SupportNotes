@@ -1,64 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="keywords" content="list, to-do">
-	<meta name="author" content="Yigit Yakupoglu">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Simple Lists to Share </title>
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/yigit-styles.css">
-</head>
-<body>
-	<div id="top-title" class="container-fluid bg-info text-center font-italic">
-		<h1 class="text-left text-sm-center align-items-center h-auto">A Simple To-Do List to Start and Finish</h1>
-	</div>
-	<div id="list-shift">
-	</div>
-	<!-- <div class="container">
-		<div class="row">
-			<div class="box bg-danger col text-center">box 1</div>
-			<div class="box bg-warning col text-center">box 2</div>
-			<div class="box bg-success col text-center">box 3</div>
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="list, to-do">
+		<meta name="author" content="Yigit Yakupoglu">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Simple Lists to Share </title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/yigit-styles.css">
+	</head>
+	<body>
+		<div id="top-title" class="container-fluid bg-info text-center font-italic">
+			<h1 class="text-left text-sm-center align-items-center h-auto">A Simple To-Do List to Start and Finish</h1>
 		</div>
-		<div class="row">
-			<div class="box bg-danger col-2 text-center">box 1</div>
-			<div class="box bg-warning col-4 text-center">box 2</div>
-			<div class="box bg-success col-3 text-center">box 3</div>
-		</div> 
-	</div> -->
-	<div class="container">
-		<div class="row justify-content-sm-around">
-			<!-- <div class="bg-dark col-md-1 col-sm-1"></div> -->
-			<div id="to-do-card" class="box col col-md-5 text-center h-auto" style="background-color: #ff8080">
-				<h1 class="box-title">TO-DO</h1>
-				<p>
-					<input type="text" id="to-do-input" class="col-sm rounded">
-					<input type="button" id="to-do-button" value="ADD" class="col-sm rounded add-button">
-				</p>
+		<div id="list-shift"></div>
+		<div class="container-lg">
+			<div class="row">
+				<div class="col col-sm-6">
+					<div class="row">
+						<!-- <div class="bg-dark col-md-1 col-sm-1"></div> -->
+						<div id="to-do-card" class="box text-center col-xs col-sm-10 offset-sm-1" style="background-color: #ff8080;">
+							<!-- <div id="to-do-card" class="box col col-md-5 text-center h-auto" style="background-color: #ff8080"> -->
+								<h1 class="box-title">TO-DO</h1>
 
-				<!-- <p><input class="checkbox-design text-left" type="checkbox"> Cop ogutme makinesi bak</p>  -->
+								<p>
+									<input type="text" id="to-do-input" class="rounded inp" maxlength="50">
+									<input type="button" id="to-do-button" value="ADD" class="rounded add-button inp">
+								</p>
+								<form id="to-do-form">
+								</form>
+							<!-- <span class="counters">Bottom</span> -->
+							<div class="input-div"></div>
+								<!-- <p><input class="checkbox-design text-left" type="checkbox"> Cop ogutme makinesi bak</p>  -->
+						</div>
+					</div>
+				</div>
+				<div class="col col-sm-6">
+					<div class="row">
+						<div id="done-card" class="box col-xs col-sm-10 offset-sm-1 text-center" name="done_card" style="background-color: #00b33c;">
+								<h1 class="box-title">DONE</h1>
+								<p>
+									<input type="text" id="done-input" class="rounded inp">
+									<input type="button" id="done-button" value="ADD" class="rounded add-button inp">
+								</p>
+								<div></div>
+								<!-- <p>Dolaplari toparla</p></div> -->
+								<!-- <div class="bg-dark col-md-1"></div> -->
+							</div>
+					</div>
+				</div>
+							
 			</div>
-			<!-- <div class="bg-dark col-md-2"></div> -->
-			<div id="done-card" class="box col col-md-5 text-center h-auto" style="background-color: #00b33c">
-				<h1 class="box-title">DONE</h1>
-				<p>
-				<input type="text" id="done-input" class="col-sm rounded">
-				<input type="button" id="done-button" value="ADD" class="col-sm rounded add-button">
-				</p>
-				<!-- <p>Dolaplari toparla</p></div> -->
-			<!-- <div class="bg-dark col-md-1"></div> -->
-			</div>
+
 		</div>
-	</div>
-	<script
-  		src="https://code.jquery.com/jquery-3.5.1.js"
-  		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  		crossorigin="anonymous">		
-  	</script>
+			<script
+			src="https://code.jquery.com/jquery-3.5.1.js"
+			integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			crossorigin="anonymous">		
+		</script>
 
-	<script type="text/javascript" src="js/app.js"></script>
-	<!-- <button type="button" class="btn btn-primary">Primary</button> -->
-</body>
+		<script type="text/javascript" src="js/app.js"></script>
+		<!-- <button type="button" class="btn btn-primary">Primary</button> -->
+	</body>
 </hmtl>
 
